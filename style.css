@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FCDED1;
 }
 
 .navbar{
@@ -12,7 +13,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: bisque;
+    background-color:#C8799F;
 }
 
 .nav-links{
@@ -40,8 +41,8 @@ body{
 }
 
 .hero{
-    background-image: url("https://media.admagazine.com/photos/618a635c5e45a526c6be8c7a/master/pass/76739.jpg");
-    background-size: cover;
+    background-color: #F194AE;
+    background-size:cover;
     background-position: center;
     text-align: center;
     color: azure;
@@ -86,7 +87,7 @@ body{
 
 /*Estilos dle pie de pagina*/
 footer{
-    background-color: azure;
+    background-color:#AE506A ;
     color: black;
     text-align: center;
     padding: 10px 0;
