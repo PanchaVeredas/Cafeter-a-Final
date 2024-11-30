@@ -85,6 +85,30 @@ body{
     margin-bottom: 10px;
 }
 
+/*seccion de menu*/
+.Menú{
+    padding: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.item img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
 /*Estilos dle pie de pagina*/
 footer{
     background-color:#AE506A ;
