@@ -30,7 +30,7 @@ body{
 
 .nav-links a{
     text-decoration: none;
-    color: black;
+    color: black; /*cambiar el color de los enlaces*/
     font-size: 16px;
     padding: 5ox 10px;
     transition: color 0.3 ease;
@@ -65,6 +65,17 @@ body{
     margin-bottom: 20px;
 }
 
+.button{
+    padding-top: 35px;
+}
+
+.button-menu{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 20%;
+    background-color: #FCDED1;
+    color: #AE506A;
+}
 /*seccion de prodcutos*/
 .featured-products{
     padding: flex;
@@ -76,6 +87,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 .product{
@@ -102,6 +114,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 .item{
@@ -113,6 +126,23 @@ body{
     height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
+}
+
+.pasteles{
+    padding: 50px;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); /*Responsive*/
+    gap: 20px; /*espaciado*/
+}
+
+.pastel img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 /*Estilos dle pie de pagina*/
 footer{
