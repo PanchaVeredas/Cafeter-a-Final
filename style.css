@@ -144,7 +144,32 @@ body{
     height: 300px;
     object-fit: cover;
 }
-/*Estilos dle pie de pagina*/
+
+.miembro{
+    width: 200px;
+    margin-bottom: 35px;
+}
+
+.miembro img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* seccion de personal*/
+
+.equipo{
+    padding: 50px;
+    text-align: center;
+    background-color: #F194AE;
+}
+
+.equipo-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*Estilos del pie de pagina*/
 footer{
     background-color:#AE506A ;
     color: black;
