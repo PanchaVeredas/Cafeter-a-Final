@@ -202,3 +202,37 @@ footer{
     border-radius: 4px;
     cursor: pointer;
 }
+
+.cupcakes{
+    padding: 50px;
+    text-align: center;
+}
+
+.grid-cupcakes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*4 Columnas de igual tamaño*/
+    grid-template-rows: repeat(2, 260px);/*2 Filas de 250px*/
+    gap: 20px; /*Espaciado entre cajitas*/
+    grid-template-areas: 
+    "cupcake1 cupcake1 cupcake2 cupcake3"
+    "cupcake1 cupcake1 cupcake4 cupcake5";
+}
+
+.cupcake{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.cupcake img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/*Asignar areas a los sandwiches*/ 
+.cupcake:nth-child(1) {grid-area: cupcake1;}
+.cupcake:nth-child(2) {grid-area: cupcake2;}
+.cupcake:nth-child(3) {grid-area: cupcake3;}
+.cupcake:nth-child(4) {grid-area: cupcake4;}
+.cupcake:nth-child(5) {grid-area: cupcake5;}
