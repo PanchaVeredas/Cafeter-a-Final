@@ -196,7 +196,7 @@ footer{
     margin-bottom: 10px;
 }
 .newletter button [type="submit"]{
-    background-color: red;
+    background-color:black;
     padding: 8px;
     border: none;
     border-radius: 4px;
@@ -219,7 +219,7 @@ footer{
 }
 
 .cupcake{
-    border: 1px solid red;
+    border: 1px solid palevioletred;
     padding: 20px;
 }
 
@@ -230,7 +230,7 @@ footer{
     margin-bottom: 10px;
 }
 
-/*Asignar areas a los sandwiches*/ 
+/*Asignar areas a los cupcakes*/ 
 .cupcake:nth-child(1) {grid-area: cupcake1;}
 .cupcake:nth-child(2) {grid-area: cupcake2;}
 .cupcake:nth-child(3) {grid-area: cupcake3;}
