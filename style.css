@@ -14,6 +14,7 @@ body{
     align-items: center;
     padding: 20px;
     background-color:#C8799F;
+    margin: auto;
 }
 
 .nav-links{
@@ -31,7 +32,7 @@ body{
 .nav-links a{
     text-decoration: none;
     color: black; /*cambiar el color de los enlaces*/
-    font-size: 16px;
+    font-size: 20px;
     padding: 5ox 10px;
     transition: color 0.3 ease;
 }
@@ -44,20 +45,25 @@ body{
     background-color: #F194AE;
     background-size:cover;
     background-position: center;
-    text-align: center;
     color: azure;
     padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-logo{
+    max-width: 100%;
+    height: 500px;
+    justify-self: center;
 }
 
 .hero-content{
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.hero-content img{
-    width: 200px;
-    height: auto;
+    gap: 10px;
 }
 
 .hero h2{
@@ -65,17 +71,26 @@ body{
     margin-bottom: 20px;
 }
 
-.button{
-    padding-top: 35px;
+.hero p{
+    margin-bottom: 20px;
+    font-size: 1rem;
 }
 
 .button-menu{
-    margin: 15px;
-    padding: 5px;
+    margin: 0px;
+    padding: 10px 20px;
     border-radius: 20%;
     background-color: #FCDED1;
     color: #AE506A;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
 }
+
+.button-menu:hover{
+    background-color:cornsilk;
+}
+
 /*seccion de prodcutos*/
 .featured-products{
     padding: flex;
