@@ -8,8 +8,9 @@ En la parte de footer puedes encontra los iconos de facebook, instagram y twitte
 La nav bar funcionan todos, al dar click en cada uno.
 1. Cupcakes- se despliega el menú de cupcakes 
 2. Menú- se despliega el menú general, ocupe grid para la organización
-3. Galeria- adjunte una galeria, redondee los border y la organize en tres columnas, tiene diseño responsivo
+3. Galeria- adjunte una galeria, redondee los bordes y la organize en tres columnas, tiene diseño responsivo
 4. Contacto- agregue al final solo una pequeña caja de contacto y la ajuste con grid
+
 Todas las secciones tiene diseño responsivo
 
 ## Contacto
