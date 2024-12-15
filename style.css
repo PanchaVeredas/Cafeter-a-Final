@@ -59,7 +59,7 @@ body{
 
 .nav-links a{
     text-decoration: none;
-    color: black; /*cambiar el color de los enlaces*/
+    color: black; 
     font-size: 20px;
     padding: 5ox 10px;
     transition: color 0.3 ease;
@@ -347,7 +347,6 @@ footer{
 
 
 /*contactos*/
-/* Contenedor principal que agrupa ambas secciones */
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -361,42 +360,41 @@ footer{
 /* Estilo para la caja de contacto */
 .contact-box {
     background-color: #FCDED1;
-    padding: 20px; /* Espaciado interno */
-    border-radius: 10px; /* Bordes redondeados */
-    margin-top: 20px; /* Espaciado superior */
-    max-width: 800px; /* Ancho máximo para la caja */
-    margin: auto; /* Centrar la caja en la página */
+    padding: 20px; 
+    border-radius: 10px;
+    margin-top: 20px; 
+    max-width: 800px;
+    margin: auto; 
 }
 
 /* Título dentro de la caja */
 .contact-box h2 {
-    font-size: 2rem; /* Tamaño de fuente del título */
-    color: #C8799F; /* Color del título */
-    text-align: center; /* Centrar el título */
-    margin-bottom: 20px; /* Espaciado debajo del título */
+    font-size: 2rem; 
+    color: #C8799F; 
+    text-align: center;
+    margin-bottom: 20px; 
 }
 
-/* Estilo para el párrafo introductorio */
 .contact-box p {
     font-size: 1.2rem;
-    color: #C8799F; /* Color suave para el texto */
-    margin-bottom: 15px; /* Espaciado inferior */
-    text-align: center; /* Centrar el texto */
+    color: #C8799F;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
-/* Estilo para las listas dentro de la caja */
+
 .contact-box ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
+    list-style-type: none; 
     padding: 0;
 }
 
 .contact-box li {
     font-size: 1rem;
-    color: #555; /* Color oscuro para la lista */
-    margin-bottom: 10px; /* Espaciado entre cada ítem */
+    color: #555;
+    margin-bottom: 10px; 
 }
 
 .contact-box li strong {
-    color: #C8799F; /* Resaltar las etiquetas (Teléfono, Correo, etc.) */
+    color: #C8799F; 
 }
 

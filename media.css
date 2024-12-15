@@ -1,6 +1,5 @@
 /* Media Query para pantallas de hasta 1024px */
 @media screen and (max-width: 1024px) {
-    /* Ajustes para pantallas más pequeñas, como tablets y pantallas medianas */
     
     .navbar{
         display: flex;
@@ -32,12 +31,23 @@
         margin-right: auto;
     }
 
-
+    .grid-cupcakes {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 300px);
+        grid-template-areas:
+            "cupcake1 cupcake2"
+            "cupcake3 cupcake4"
+            "cupcake5 cupcake5";
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    
 }
 
 /* Media Query para pantallas de hasta 768px */
 @media screen and (max-width: 768px) {
-    /* Ajustes para pantallas de tablets en orientación vertical o móviles más grandes */
+    
     
     .navbar {
         flex-direction: column; 
@@ -77,6 +87,27 @@
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .grid-cupcakes {
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(5, 300px); 
+        grid-template-areas: 
+            "cupcake1"
+            "cupcake2"
+            "cupcake3"
+            "cupcake4"
+            "cupcake5";
+    }
+    .cupcakes h2 {
+        font-size: 30px; 
+    }
+    .cupcake {
+        font-size: 1rem; 
+    }
+    .gallery {
+        grid-template-columns: 1fr; 
+        gap: 15px; 
     }
 }
 
@@ -134,11 +165,27 @@
         font-size: 1rem;
     }
 
+    .grid-cupcakes {
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(5, auto); 
+        gap: 15px; 
+    }
+    .cupcakes h2 {
+        font-size: 25px; 
+    }
+    .cupcake {
+        font-size: 0.9rem; 
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 10px; 
+    }
+
 }
 
 /* Media Query para pantallas de hasta 320px */
 @media screen and (max-width: 320px) {
-    /* Ajustes para pantallas muy pequeñas, como teléfonos muy compactos */
+    /* Ajustes para pantallas muy pequeñas, como teléfonos*/
     .navbar {
         padding: 5px;
     }
@@ -180,5 +227,21 @@
 
     .contact-box p {
         font-size: 0.9rem;
+    }
+
+    .grid-cupcakes {
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(5, auto);
+        gap: 10px; 
+    }
+    .cupcakes h2 {
+        font-size: 20px; 
+    }
+    .cupcake {
+        font-size: 0.8rem; 
+    }
+    .gallery {
+        grid-template-columns: 1fr; 
+        gap: 5px; 
     }
 }
