@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Cupcakes by KA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mediaq.css">
+</head>
+<body>
+    <header>
+        <!--caja para la direccion-->
+        <div class="addres-bar">
+            <a href="https://www.google.com/maps/place/Cupcakes+by+KA/@20.0827211,-98.7630643,12z/data=!3m1!4b1!4m6!3m5!1s0x85d1a10007df8153:0xa411659b8666fd67!8m2!3d20.0827211!4d-98.7630643!16s%2Fg%2F11b7c7rpfp?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D" target="_blank">
+                <p>Hidalgo #115, Col. Venustiano Carranza, Pachuca, Hidalgo</p>
+            </a>
+        </div>
+        <!--Barra de navegacion-->
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Cupcakes by KA</h1>
+            </div>
+            <ul class="nav-links">
+                <li> <a href="#" onclick="redirigir('index.html')">Inicio</a></li>
+                <li> <a href="#" onclick="redirigir('cupcakes.html')">Cupcakes</a></li></a></li>
+                <li> <a href="#" onclick="redirigir('menu.html')">Menú</a></li>
+                <li> <a href="#" onclick="redirigir('galeria.html')">Galeria</a></li>
+                <li> <a href="#" onclick="redirigir('contacto.html')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="fotos/logotipo.png" alt="logotipo" class="hero-logo">
+        <div class="hero-content">
+            <h2>Reposteria creativa</h2>
+            <p>Deleitate con sabores unicos y propuestas deliciosas</p>
+            <div class="button">
+                <button class="button-menu">Ver Menú</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-box">
+        <h2>Contacto</h2>
+        <p>¡No dudes en ponerte en contacto con nosotros! Cotiza tu pastel sin compromiso</p>
+        <ul>
+            <li><strong>Teléfono:</strong> 771 126 2119</li>
+            <li><strong>Correo electrónico:</strong> cupcakesbyka@gmail.com</li>
+            <li><strong>Dirección:</strong> Hidalgo #115, Col. Venustiano Carranza, Pachuca, Hidalgo</li>
+        </ul>
+        </section>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="https://www.facebook.com/CupcakesbyKa/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/cupcakes_and_more_byka/"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/CupcakesbyKA"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="newsletter">
+                <h3>Cotiza tu pastel</h3>
+                <form action="">
+                    <input type="email" placeholder="Ingresa tu correo electronico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+            <p>Cupcakes by KA</p>
+        </div>
+    </footer>
+
+    <!--enlazando el archivo de javascript-->
+    <script src="main.js"></script>
+</body>
+</html>

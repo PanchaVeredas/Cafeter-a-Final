@@ -344,3 +344,59 @@ footer{
     height: 100%; 
     object-fit: cover; 
 }
+
+
+/*contactos*/
+/* Contenedor principal que agrupa ambas secciones */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    flex-wrap: wrap;
+}
+
+/* Estilo para la caja de contacto */
+.contact-box {
+    background-color: #FCDED1;
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px; /* Espaciado superior */
+    max-width: 800px; /* Ancho máximo para la caja */
+    margin: auto; /* Centrar la caja en la página */
+}
+
+/* Título dentro de la caja */
+.contact-box h2 {
+    font-size: 2rem; /* Tamaño de fuente del título */
+    color: #C8799F; /* Color del título */
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+/* Estilo para el párrafo introductorio */
+.contact-box p {
+    font-size: 1.2rem;
+    color: #C8799F; /* Color suave para el texto */
+    margin-bottom: 15px; /* Espaciado inferior */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para las listas dentro de la caja */
+.contact-box ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+}
+
+.contact-box li {
+    font-size: 1rem;
+    color: #555; /* Color oscuro para la lista */
+    margin-bottom: 10px; /* Espaciado entre cada ítem */
+}
+
+.contact-box li strong {
+    color: #C8799F; /* Resaltar las etiquetas (Teléfono, Correo, etc.) */
+}
+
