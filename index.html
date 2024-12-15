@@ -25,8 +25,8 @@
                 <li> <a href="#">Inicio</a></li>
                 <li> <a href="#" onclick="redirigir('cupcakes.html')">Cupcakes</a></li></a></li>
                 <li> <a href="#" onclick="redirigir('menu.html')">Menú</a></li>
-                <li> <a href="#">Nosotros</a></li>
-                <li> <a href="#">Contacto</a></li>
+                <li> <a href="#" onclick="redirigir('galeria.html')">Galeria</a></li>
+                <li> <a href="#" onclick="redirigir('contacto.html')">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -44,36 +44,35 @@
 
 
     <section id="Menú" class="menu">
-        <h2>Menú</h2>
-        <p>Descubre las opciones deliciosas para esta Navidad</p>
+        <h2 class="menu-title">Menú de Temporada</h2>
+        <p class="menu-subtitle">Descubre las opciones deliciosas para esta Navidad</p>
         <div class="menu-items">
             <div class="item">
-                <img src="fotos/cupcake-choco.JPEG" alt="caja de galletas">
+                <img src="https://scontent.fmex19-1.fna.fbcdn.net/v/t39.30808-6/470167659_1084500757018743_1066404388612226474_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=R9OSDFP8S1QQ7kNvgGRmwQv&_nc_zt=23&_nc_ht=scontent.fmex19-1.fna&_nc_gid=A0JbL77JkL5FnlO1EK9YDPd&oh=00_AYBdyae6wYIllIabnHWPUhZ6ZY7gNwVazKxP8UJ8Inf2SA&oe=6763D96F" alt="caja de galletas">
                 <h3>Caja de galletas</h3>
                 <ul>
                 <li>4 galletas rellenas de mermelada de frambuesa</li>
                 <li>4 galletas chubby de chispas de chocolate y arandano</li>
-                <li></li>4 galletas de jengibre</li>
-                <li></li>4 galletas de avena</li>
-                <li></li>10 besos de nuez</li>
+                <li>4 galletas de jengibre</li>
+                <li>10 besos de nuez</li>
                 </ul>
             </div>
 
             <div class="item">
-                <img src="fotos/cupcake-choco.JPEG" alt="caja de cupcakes">
+                <img src="https://scontent.fmex19-1.fna.fbcdn.net/v/t39.30808-6/441460352_920974736704680_360090203766728847_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=j7Ja-glk6C8Q7kNvgGsqUIQ&_nc_zt=23&_nc_ht=scontent.fmex19-1.fna&_nc_gid=A1ia08ESy0b3k0BeyMrv2_g&oh=00_AYAUlAWmB7v1TspnVfNB--pEVYhz8vd-v48Qy7F7F8wxJQ&oe=6763D6D2" alt="caja de cupcakes">
                 <h3>Caja de cupcakes navideños</h3>
-                <p>3 cupcakes de red velvet, 3 cupcakes de chocolate, con cobertura de queuso crema y mini galleta de jengibre</p>
+                <p>3 cupcakes de red velvet, 3 cupcakes de chocolate, con cobertura de queuso crema y tableta de chocolate</p>
             </div>
 
             <div class="item">
-                <img src="fotos/cupcake-choco.JPEG" alt="Rosca de naranja, canela y jengibre">
+                <img src="https://scontent.fmex19-1.fna.fbcdn.net/v/t39.30808-6/470177635_1084437513691734_6300297333147710532_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GSdsKlNFFmkQ7kNvgGp1ba0&_nc_zt=23&_nc_ht=scontent.fmex19-1.fna&_nc_gid=ABQaAGSKM7GCGUyDUwwbnat&oh=00_AYD5XO7VD5fYzEFjghjwI1InFktyK14IoF4rvNlnFoNQ_Q&oe=6763D5B4" alt="Rosca de naranja, canela y jengibre">
                 <h3>Rosca de naranja</h3>
-                <p>Con glaseado de naranja y decoracion navdieña</p>
+                <p>Con chantilly de queso crema y decoracion navideña</p>
                 <p>ideal para 10-12 personas</p>
             </div>
 
             <div class="item">
-                <img src="fotos/cupcake-choco.JPEG" alt="Cheescake con mermelada de ponche">
+                <img src="https://scontent.fmex19-1.fna.fbcdn.net/v/t39.30808-6/470153543_1084502187018600_3452008047552608851_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4WjzDTdE3UMQ7kNvgFeP36Y&_nc_zt=23&_nc_ht=scontent.fmex19-1.fna&_nc_gid=ATKlXLMIaygNqalEAsmC5RJ&oh=00_AYDcd5zN5CnA_1fpK0GM4CqkDvhicW6UBwsXY1B1RN08Xw&oe=6763CCAD" alt="Cheescake con mermelada de ponche">
                 <h3>Chescake con mermelada de ponche</h3>
                 <p>Con mermelada de tejocote, manzana y canela</p>
                 <p>ideal para 8-10 personas</p>
@@ -88,27 +87,21 @@
         <div class="equipo-container">
             <!--Primer miembro-->
             <div class="miembro">
-                <img src="https://media.istockphoto.com/id/1791025589/es/vector/personaje-de-mascota-de-panadero-de-dibujos-animados-retro-vintage.jpg?s=612x612&w=0&k=20&c=_6gXChmiba7gWvhaXsJ8Nro-VpAsUnxV9ddUUmcHXeM=" alt="chef">
+                <img src="fotos/foto.jpg" alt="Pastelera">
                 <h3>Alejandra</h3>
-                <p>Chef</p>
+                <p>Pastelera</p>
             </div>
             <!--segundo miembro-->
             <div class="miembro">
-                <img src="https://media.istockphoto.com/id/1791025589/es/vector/personaje-de-mascota-de-panadero-de-dibujos-animados-retro-vintage.jpg?s=612x612&w=0&k=20&c=_6gXChmiba7gWvhaXsJ8Nro-VpAsUnxV9ddUUmcHXeM=" alt="chef">
+                <img src="fotos/foto2.JPEG" alt="Panadera">
                 <h3>Karina</h3>
-                <p>Pastry</p>
+                <p>Panadera</p>
             </div>
             <!--tercer miembro-->
             <div class="miembro">
-                <img src="https://media.istockphoto.com/id/1791025589/es/vector/personaje-de-mascota-de-panadero-de-dibujos-animados-retro-vintage.jpg?s=612x612&w=0&k=20&c=_6gXChmiba7gWvhaXsJ8Nro-VpAsUnxV9ddUUmcHXeM=" alt="chef">
-                <h3>Angel</h3>
-                <p>Sous</p>
-            </div>
-            <!--cuartu miembro-->
-            <div class="miembro">
-                <img src="https://media.istockphoto.com/id/1791025589/es/vector/personaje-de-mascota-de-panadero-de-dibujos-animados-retro-vintage.jpg?s=612x612&w=0&k=20&c=_6gXChmiba7gWvhaXsJ8Nro-VpAsUnxV9ddUUmcHXeM=" alt="chef">
-                <h3>Nestor</h3>
-                <p>Demi</p>
+                <img src="fotos/foto3.JPEG" alt="Chef">
+                <h3>Alex</h3>
+                <p>Chef</p>
             </div>
         </div>
 
@@ -117,9 +110,9 @@
     <footer>
         <div class="footer-container">
             <div class="social-media">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/CupcakesbyKa/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/cupcakes_and_more_byka/"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/CupcakesbyKA"><i class="fab fa-twitter"></i></a>
             </div>
             <div class="newsletter">
                 <h3>Cotiza tu pastel</h3>
